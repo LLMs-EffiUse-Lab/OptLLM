@@ -1,5 +1,5 @@
 # OptLLM
-This is the repository for the reuse and reproduction of experimental results presented in our ICWS'24 paper titled *OptLLM: Assigning Jobs to Large Language Models with Higher Accuracy at Lower Cost*.
+This is the repository for the reuse and reproduction of experimental results presented in our ICWS'24 paper titled *OptLLM: Optimal Assignment of Queries to Large Language Models*.
 
 OptLLM is a framework that provides users with a range of optimal solutions to choose from, aligning with their budget constraints and performance preferences, including options for maximizing accuracy and minimizing cost. OptLLM predicts the performance of candidate LLMs on each query using a multi-label classification model with uncertainty estimation and then iteratively generates a set of non-dominated solutions by destructing and reconstructing the current solution.
 ## 1. Framework
